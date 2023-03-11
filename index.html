@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .wrap {
+        /* max-width: 900px; */
+        border: 2px solid green;
+        margin: 20px;
+        padding: 20px;
+      }
+      .vinylWrap {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        width: 200px;
+      }
+      .vinylWrap img {
+        height: 200px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Books</h1>
-    <button onclick="loadBooks()">Загрузить книги</button>
-    <div id="books"></div>
+    <div
+      class="container-xl mt-3 p-3 bg-success text-white text-center text-uppercase"
+    >
+      <h1>Вініл</h1>
+    </div>
+    <br />
+    <div class="col-md-12 text-center">
+      <button onclick="loadVinyls()" class="btn btn-info btn-lg">
+        Загрузити вініл
+      </button>
+    </div>
+    <div id="vinyls" class="container-fluid"></div>
     <script src="./script.js"></script>
   </body>
 </html>
