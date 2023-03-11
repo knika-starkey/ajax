@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Гарри Поттер и философский камень",
+        "author": "Joanne Rowling",
+        "cost": 90,
+        "quantity": 45
+    },
+    {
+        "title": "Охота на овец",
+        "author": "Haruki Murakami",
+        "cost": 120,
+        "quantity": 8
+    },
+    {
+        "title": "Властелин колец. Трилогия",
+        "author": "Джон Толкин",
+        "cost": 600,
+        "quantity": 25
+    }
+]
